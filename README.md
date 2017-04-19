@@ -1,5 +1,4 @@
-# SocialNetwork
-DataBase Pro. Codes
+# DataBase-Project
 Hello everyone,
 This repo. for DataBase project.
 Css folder contains stylesheets like css,bootstrap,fontawesome,and normalize sheet.
