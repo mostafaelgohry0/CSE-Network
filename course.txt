@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Courses</title>
+		<!-- Bootstrap -->
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<!-- Css -->
+    	<link href="css/style.css" rel="stylesheet">
+    	<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="shortcut icon" href="img/bb.gif" type="image/x-icon">
+	</head>
+	<body>
+		
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      	</button>
+				      	<a class="navbar-brand active" href="#">CSE Network</a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					    <form class="navbar-form navbar-left" role="search">
+					        <div class="input-group">
+					        	<input type="text" class="form-control" placeholder="Search..." aria-describedby="basic-addon1">
+							    <span class="input-group-addon" id="basic-addon1">
+							    	<i class="fa fa-search" aria-hidden="true"></i>
+							    </span>
+							</div>
+					    </form>
+				      	<ul class="nav navbar-nav navbar-right list">
+					        <li class="active"><a href="#">Hend Khairy</a></li>
+						    <li role="presentation">
+							    <a href="#">
+								    <i class="fa fa-home" aria-hidden="true"></i> Home
+								    <span class="badge">42</span>
+							    </a>
+						    </li>
+						    <li role="presentation">
+							    <a href="#">
+								    <i class="fa fa-comment" aria-hidden="true"></i>
+								    <span class="badge">3</span>
+							    </a>
+						    </li>
+						    <li role="presentation">
+							    <a href="#">
+								    <i class="fa fa-bell" aria-hidden="true"></i>
+								    <span class="badge">33</span>
+							    </a>
+						    </li>
+					        <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-cog" aria-hidden="true"></i> <span class="caret"></span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="#">Action</a></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="#">Separated link</a></li>
+					          </ul>
+				        	</li>
+				      	</ul>
+				    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-->
+			</nav>
+			
+
+			<div class="course">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-6 col-lg-6">	
+				    		<div class="thumbnail">
+				      			<a href="fourth.html" target="_blank"><img src="img/seagull-183229_1920.jpg"></a>
+				      			<div class="caption">
+				        			<h3>4<sup>th</sup> CSE Courses</h3>
+				        			<p>........</p>
+				       				<p><a href="#" class="btn btn-primary" role="button">Faculty</a>
+				       					<a href="#" class="btn btn-default" role="button">Helpful</a>
+				       				</p>
+				      			</div>
+				    		</div>
+				    	</div>
+
+				    	<div class="col-xs-12 col-md-6 col-lg-6">	
+				    		<div class="thumbnail">
+				      			<a href="third.html" target="_blank"><img src="img/seagull-271103_1920.jpg"></a>
+				      			<div class="caption">
+				        			<h3>3<sup>rd</sup >CSE Courses</h3>
+				        			<p>........</p>
+				       				<p><a href="ffcourses.html" class="btn btn-primary" role="button">Faculty</a> 
+				       					<a href="ffcourses.html" class="btn btn-default" role="button">Helpful</a>
+				       				</p>
+				      			</div>
+				    		</div>
+			    		</div>
+					</div>
+				</div>
+			</div>
+
+		<script src="js/jquery-2.2.0.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

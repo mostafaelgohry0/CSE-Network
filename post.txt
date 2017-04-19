@@ -1,0 +1,106 @@
+P.S. Deadline for this tasks next Friday 11:59 PM
+Teams
+Front-End
+Hend Khairy Abdelhamed
+mostafa elgohry
+Ahmed Ghandor
+amira elsayed elfadaly
+nourhan mansour
+aya ibrahim
+yasmeen
+Real-Time Connection
+ahmed abdelbasit mohamed
+Back-End
+Basic
+Mahmoud Shaheen
+Mahmoud Awadalleh
+Muhammad Alaa
+nehad elbaqary
+khaled
+Menna ashraff
+SQL
+Anas Khedr
+Sultan Ibrahim
+Ahmed Mahmoud Ali
+CRUD
+Ahmed Abd Elbadee
+Gelan Elhady
+Omar Ra'afat
+Mustafa Kamel
+Tasks
+Basic Team
+url encode
+html encode
+form validation
+password hash
+login validation
+regulating page access
+admin area
+users area
+db connection
+html header/footer
+redirection
+page subject
+?q= conversion to /url
+API
+form submission
+SQL
+ER diagram
+db & tables creation
+db optimization
+indexes
+triggers
+procedures
+CRUD
+Get ER from SQL team
+populating pages with data from db
+inserting forms' data to db
+Real-time connection
+real time two-way connection for:
+live search
+Notification
+Messages
+Pages:
+Login screen
+edit profile/settings
+profiles (view)
+feed (view, post, comment)
+post page (view, comment)
+Notifications (view)
+Messages (view, send)
+course:
+add/edit
+view
+projects:
+add/edit
+view
+labs:
+add/edit
+view
+component:
+add/edit
+view
+borrow form
+Site Administrator: (Prof privileges + extra)
+add accounts/Administrators
+Block & change password
+delete posts
+change user's college role
+Notes
+1. Code style:
+db: all tables & rows are lower-case
+PHP: vars. & functions lower case with underscores
+ex: this_is_a_function or this_is_a_variable
+PS: code must be modular
+2. CRUD & SQL:
+must use prepaired statements
+for any data from user to avoid SQL Injection
+3. Password:
+username, password are always root, root
+PS: db name will be cse
+4. tutorial will be posted soon for XAMPP installation and config.
+5. code must be uploaded constantly to Github
+so all members be able to see work progress.
+Git Repo. for back-end will be: https://github.com/mahmoudShaheen/SocialNetwork
+6. tutorial will be posted soon for working with git repo.
+7. for any question please don't hesitate to send me or team leaders a message
