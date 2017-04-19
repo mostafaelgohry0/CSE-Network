@@ -1,2 +1,0 @@
-v1 >> means version NO.(1)
-any page contains the nav bar,it's ready for styling.
