@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Courses</title>
+		<title>CSE Network</title>
+	
 		<!-- Bootstrap -->
     	<link href="css/bootstrap.min.css" rel="stylesheet">
     	<!-- Css -->
-    	<link href="css/style.css" rel="stylesheet">
-    	<link rel="stylesheet" href="css/normalize.css">
+    	<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="shortcut icon" href="img/bb.gif" type="image/x-icon">
 	</head>
 	<body>
-		
 			<nav class="navbar navbar-inverse navbar-fixed-top">
 				
 			    <!-- Brand and toggle get grouped for better mobile display -->
 				    <div class="navbar-header">
-				    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				    	<button type="button" class="navbar-toggle collapse" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      	</button>
 				      	<a class="navbar-brand active" href="#"> CSE Network</a>
+				    </div>
+				    <div class="sidebar-header">
+				    	<button type="button" class="sidebar-toggle collapse" data-toggle="collapse" data-target="#sidebar-collapse" aria-expanded="false">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      	</button>
 				    </div>
 
 				    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,25 +41,37 @@
 							</div>
 					    </form>
 				      	<ul class="nav navbar-nav navbar-right list">
-					        <li class="active"><a href="#"><img src="img/bb.gif" width="20" height="20">Hend Khairy</a></li>
+					        <li class="active"><a href="#"> <img src="img/bb.gif" width="20" height="20"> Hend Khairy</a></li>
 						    <li role="presentation">
 							    <a href="index.html">
 								    <i class="fa fa-home" aria-hidden="true"></i> Home
 								    <span class="badge">42</span>
 							    </a>
 						    </li>
-						    <li role="presentation">
-							    <a href="#">
-								    <i class="fa fa-comment" aria-hidden="true"></i>
-								    <span class="badge">3</span>
-							    </a>
-						    </li>
-						    <li role="presentation">
-							    <a href="#">
-								    <i class="fa fa-bell" aria-hidden="true"></i>
-								    <span class="badge">33</span>
-							    </a>
-						    </li>
+						   
+						    <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-comment" aria-hidden="true"></i>
+								    <span class="badge">3</span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="gset.html">General setting</a></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="reg-log.html">Log out</a></li>
+					          </ul>
+				        	</li>
+						    <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-bell" aria-hidden="true"></i>
+								    <span class="badge">33</span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="gset.html">General setting</a></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="reg-log.html">Log out</a></li>
+					          </ul>
+				        	</li>
+				        	
 						    
 					        <li class="dropdown">
 					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-cog" aria-hidden="true"></i> <span class="caret"></span></a>
@@ -66,86 +84,100 @@
 					          </ul>
 				        	</li>
 				      	</ul>
-				    <!-- /.navbar-collapse -->
-			  </div><!-- /.container-->
+				    </div><!-- /.navbar-collapse -->
 			</nav>
-			<div class="wrap-course">	
+		
+			<div class="wrap-lab">	
 				<div id="wrapper">
-			        <!-- Sidebar -->
-			        <div id="sidebar-wrapper">
-			            <ul class="sidebar-nav">
-			                <li class="sidebar-brand hed ">
-			                    <img src="img/fw.png" width="80" height="80" >
-			                </li>
+				    <div class="collapse sidebar-collapse" id="sidebar-collapse">	
+				        <!-- Sidebar -->
+				        <div id="sidebar-wrapper">
+				            <ul class="sidebar-nav">
+				                <li class="sidebar-brand hed ">
+				                    <img src="img/fw.png" width="80" height="80" >
+				                </li>
 
-			                <li> 	                    
-								<button class="accordion">Courses</button>
-								<div class="panels">
-								  <ul>
-								  	<li><a href="course.html"> Home</a></li>
-								  	<li><a href="fourth.html"> 4<sup>th</sup> Courses</a></li>
-								  	<li><a href="third.html"> 3<sup>rd</sup> Courses</a></li>
-								  </ul>
-								</div>
-			                </li>
-			                <li>
-			                    <a href="projects.html">Projects</a>
-			                </li>
-			                <li>
-			                    <button class="accordion">Labs</button>
-								<div class="panels">
-								  <ul>
-								  	<li><a href="lab.html"> Home</a></li>
-								  	<li><a href="tablesl1.html">Lab 1</a></li>
-								  	<li><a href="tablesl2.html">Lab 2</a></li>
-								  	<li><a href="tablesl3.html"> Lab 3</a></li>
-								  </ul>
-								</div>
-			                </li>
-			                <li>
-			                    <a href="#">Events</a>
-			                </li>
-			                <li>
-			                    <a href="#">About</a>
-			                </li>
-			                <li>
-			                    <a href="#">Services</a>
-			                </li>
-			                <li>
-			                    <a href="#contact">Contact</a>
-			                </li>
-			            </ul>
-			        </div>
-			        <!-- /#sidebar-wrapper -->
+				                <li> 	                    
+									<button class="accordion">Courses</button>
+									<div class="panels">
+									  <ul>
+									  	<li><a href="course.html"> Home</a></li>
+									  	<li><a href="fourth.html"> 4<sup>th</sup> Courses</a></li>
+									  	<li><a href="third.html"> 3<sup>rd</sup> Courses</a></li>
+									  </ul>
+									</div>
+				                </li>
+				                <li>
+				                    <a href="projects.html">Projects</a>
+				                </li>
+				                <li>
+				                    <button class="accordion">Labs</button>
+									<div class="panels">
+									  <ul>
+									  	<li><a href="lab.html"> Home</a></li>
+									  	<li><a href="tablesl1.html">Lab 1</a></li>
+									  	<li><a href="tablesl2.html">Lab 2</li>
+									  	<li><a href="tablesl3.html">Lab 3</li>
+									  </ul>
+									</div>
+				                </li>
+				                <li>
+				                    <a href="#">Events</a>
+				                </li>
+				                <li>
+				                    <a href="#">About</a>
+				                </li>
+				                <li>
+				                    <a href="#">Services</a>
+				                </li>
+				                <li>
+				                    <a href="#contact">Contact</a>
+				                </li>
+				            </ul>
+				        </div>
+				        <!-- /#sidebar-wrapper -->
+				    </div>
 			    </div>
 			    <!-- /#wrapper -->	
-	    	</div>
-			
-
-			<div class="course">
+		    </div>
+		
+		<!-- Page Content -->
+	        <div class="lab">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12 col-md-6 col-lg-6">	
+						<div class="col-xs-12 col-md-6 col-lg-4">	
 				    		<div class="thumbnail">
 				      			<a href="fourth.html" target="_blank"><img src="img/seagull-183229_1920.jpg"></a>
 				      			<div class="caption">
-				        			<h3>4<sup>th</sup> CSE Courses</h3>
+				        			<h3>LAB 1</h3>
 				        			<p>........</p>
-				       				<p><a href="ffcourses v1.html" class="btn btn-primary" role="button">Faculty</a>
-				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Helpful</a>
+				       				<p><a href="tablesl1.html" class="btn btn-primary" role="button">Tables</a>
+				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Content</a>
 				       				</p>
 				      			</div>
 				    		</div>
 				    	</div>
 
-				    	<div class="col-xs-12 col-md-6 col-lg-6">	
+				    	<div class="col-xs-12 col-md-6 col-lg-4">	
 				    		<div class="thumbnail">
 				      			<a href="third.html" target="_blank"><img src="img/seagull-271103_1920.jpg"></a>
 				      			<div class="caption">
-				        			<h3>3<sup>rd</sup> CSE Courses</h3>
+				        			<h3>LAB 2</h3>
 				        			<p>........</p>
-				       				<p><a href="ffcourses v1.html" class="btn btn-primary" role="button">Faculty</a> 
-				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Helpful</a>
+				       				<p><a href="tablesl2.html" class="btn btn-primary" role="button">Tables</a> 
+				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Content</a>
+				       				</p>
+				      			</div>
+				    		</div>
+			    		</div>
+			    		<div class="col-xs-12 col-md-6 col-lg-4">	
+				    		<div class="thumbnail">
+				      			<a href="third.html" target="_blank"><img src="img/seagull-183229_1920.jpg"></a>
+				      			<div class="caption">
+				        			<h3>LAB 3</h3>
+				        			<p>........</p>
+				       				<p><a href="tablesl3.html" class="btn btn-primary" role="button">Tables</a> 
+				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Content</a>
 				       				</p>
 				      			</div>
 				    		</div>
@@ -153,6 +185,7 @@
 					</div>
 				</div>
 			</div>
+	        	
 
 					<div class="footer" id="contact">
 			            <div class="infoo">
@@ -224,8 +257,11 @@
 		                    </ul> 
 		                </div>
            			</div>
+		  
+			
+			
 		
-
+			
 		<script src="js/jquery-2.2.0.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
 	</body>

@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Courses</title>
+		<title>CSE Network</title>
+	
 		<!-- Bootstrap -->
     	<link href="css/bootstrap.min.css" rel="stylesheet">
     	<!-- Css -->
-    	<link href="css/style.css" rel="stylesheet">
-    	<link rel="stylesheet" href="css/normalize.css">
+    	<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="shortcut icon" href="img/bb.gif" type="image/x-icon">
 	</head>
 	<body>
-		
 			<nav class="navbar navbar-inverse navbar-fixed-top">
 				
 			    <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,25 +34,37 @@
 							</div>
 					    </form>
 				      	<ul class="nav navbar-nav navbar-right list">
-					        <li class="active"><a href="#"><img src="img/bb.gif" width="20" height="20">Hend Khairy</a></li>
+					        <li class="active"><a href="#">Hend Khairy</a></li>
 						    <li role="presentation">
 							    <a href="index.html">
 								    <i class="fa fa-home" aria-hidden="true"></i> Home
 								    <span class="badge">42</span>
 							    </a>
 						    </li>
-						    <li role="presentation">
-							    <a href="#">
-								    <i class="fa fa-comment" aria-hidden="true"></i>
-								    <span class="badge">3</span>
-							    </a>
-						    </li>
-						    <li role="presentation">
-							    <a href="#">
-								    <i class="fa fa-bell" aria-hidden="true"></i>
-								    <span class="badge">33</span>
-							    </a>
-						    </li>
+						   
+						    <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-comment" aria-hidden="true"></i>
+								    <span class="badge">3</span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="gset.html">General setting</a></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="reg-log.html">Log out</a></li>
+					          </ul>
+				        	</li>
+						    <li class="dropdown">
+					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-bell" aria-hidden="true"></i>
+								    <span class="badge">33</span></a>
+					          <ul class="dropdown-menu">
+					            <li><a href="gset.html">General setting</a></li>
+					            <li><a href="#">Another action</a></li>
+					            <li><a href="#">Something else here</a></li>
+					            <li role="separator" class="divider"></li>
+					            <li><a href="reg-log.html">Log out</a></li>
+					          </ul>
+				        	</li>
+				        	
 						    
 					        <li class="dropdown">
 					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-cog" aria-hidden="true"></i> <span class="caret"></span></a>
@@ -66,10 +77,10 @@
 					          </ul>
 				        	</li>
 				      	</ul>
-				    <!-- /.navbar-collapse -->
-			  </div><!-- /.container-->
+				    </div><!-- /.navbar-collapse -->
+			 	
 			</nav>
-			<div class="wrap-course">	
+			<div class="wrap-table">	
 				<div id="wrapper">
 			        <!-- Sidebar -->
 			        <div id="sidebar-wrapper">
@@ -112,49 +123,195 @@
 			                    <a href="#">Services</a>
 			                </li>
 			                <li>
-			                    <a href="#contact">Contact</a>
+			                    <a href="#">Contact</a>
 			                </li>
 			            </ul>
 			        </div>
 			        <!-- /#sidebar-wrapper -->
 			    </div>
 			    <!-- /#wrapper -->	
-	    	</div>
+		    </div>
+		
+		<!-- Page Content -->
+		
+				
 			
-
-			<div class="course">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-md-6 col-lg-6">	
-				    		<div class="thumbnail">
-				      			<a href="fourth.html" target="_blank"><img src="img/seagull-183229_1920.jpg"></a>
-				      			<div class="caption">
-				        			<h3>4<sup>th</sup> CSE Courses</h3>
-				        			<p>........</p>
-				       				<p><a href="ffcourses v1.html" class="btn btn-primary" role="button">Faculty</a>
-				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Helpful</a>
-				       				</p>
-				      			</div>
-				    		</div>
-				    	</div>
-
-				    	<div class="col-xs-12 col-md-6 col-lg-6">	
-				    		<div class="thumbnail">
-				      			<a href="third.html" target="_blank"><img src="img/seagull-271103_1920.jpg"></a>
-				      			<div class="caption">
-				        			<h3>3<sup>rd</sup> CSE Courses</h3>
-				        			<p>........</p>
-				       				<p><a href="ffcourses v1.html" class="btn btn-primary" role="button">Faculty</a> 
-				       					<a href="tfcourses v1.html" class="btn btn-default" role="button">Helpful</a>
-				       				</p>
-				      			</div>
-				    		</div>
-			    		</div>
+		
+			    <div class="panel panel-default">
+				  <!-- Default panel contents -->
+				  	<div class="panel-heading" style="text-align: center;">4<sup>th</sup> Labs Table</div>
+				  	<div class="panel-body">
+					    	<table class="table table-striped table-hover table-responsive">
+						    <tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+					  </table>
 					</div>
 				</div>
+				
+				<br>
+				<br>
+				<div class="panel panel-default">
+				  <!-- Default panel contents -->
+				  	<div class="panel-heading" style="text-align: center;">3<sup>rd</sup> Labs Table</div>
+				  	<div class="panel-body">
+					   <!-- Table -->
+						  	<table class="table table-striped table-hover table-responsive">
+						    <tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+					  </table>
+				  	</div>
+				</div> 
+				<br>
+				<br>
+				<div class="panel panel-default">
+				  <!-- Default panel contents -->
+				  	<div class="panel-heading" style="text-align: center;">2<sup>nd</sup> Labs Table</div>
+				  	<div class="panel-body">
+					   <!-- Table -->
+						  	<table class="table table-striped table-hover table-responsive">
+						    <tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+							<tr>
+								  <td>Lab Date</td>
+								  <td>Lab Name</td>
+								  <td>Instractor Name</td>
+							</tr>
+					  </table>
+					</div>
+				</div>	
+			
 			</div>
+		</div>
+				<div class="tables">
+					<div class="container">
 
-					<div class="footer" id="contact">
+					</div>
+				</div>
+					<div class="footer">
 			            <div class="infoo">
 				            <div class="col-xs-12 col-md-3 col-lg-3">
 				            	<ul>
@@ -225,7 +382,8 @@
 		                </div>
            			</div>
 		
-
+		
+			
 		<script src="js/jquery-2.2.0.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
 	</body>
